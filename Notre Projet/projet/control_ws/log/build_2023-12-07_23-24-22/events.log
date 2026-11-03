@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.001986] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.002832] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.004633] (sensors_nodes) JobQueued: {'identifier': 'sensors_nodes', 'dependencies': OrderedDict()}
+[0.005000] (teleop_twist_keyboard) JobQueued: {'identifier': 'teleop_twist_keyboard', 'dependencies': OrderedDict()}
+[0.005176] (controller) JobStarted: {'identifier': 'controller'}
+[0.078582] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.099016] (-) TimerEvent: {}
+[0.126921] (sensors_nodes) JobStarted: {'identifier': 'sensors_nodes'}
+[0.180477] (teleop_twist_keyboard) JobStarted: {'identifier': 'teleop_twist_keyboard'}
+[0.199295] (-) TimerEvent: {}
+[0.300624] (-) TimerEvent: {}
+[0.401869] (-) TimerEvent: {}
+[0.502680] (-) TimerEvent: {}
+[0.604653] (-) TimerEvent: {}
+[0.706252] (-) TimerEvent: {}
+[0.807080] (-) TimerEvent: {}
+[0.907925] (-) TimerEvent: {}
+[1.008755] (-) TimerEvent: {}
+[1.111887] (-) TimerEvent: {}
+[1.212797] (-) TimerEvent: {}
+[1.315317] (-) TimerEvent: {}
+[1.417493] (-) TimerEvent: {}
+[1.523489] (-) TimerEvent: {}
+[1.624394] (-) TimerEvent: {}
+[1.725166] (-) TimerEvent: {}
+[1.826037] (-) TimerEvent: {}
+[1.926822] (-) TimerEvent: {}
+[2.027742] (-) TimerEvent: {}
+[2.128558] (-) TimerEvent: {}
+[2.234565] (-) TimerEvent: {}
+[2.281207] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[2.286714] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[2.292522] (interfaces) Command: {'cmd': ['/home/agilex/.local/bin/cmake', '--build', '/home/agilex/control_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/agilex/control_ws/build/interfaces', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'agilex'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LANGUAGE', 'en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('JETSON_CUDA', '10.2.300'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/agilex/control_ws/install/interfaces/lib:/home/agilex/catkin_ws/devel/lib:/home/agilex/agilex_ws/devel/lib:/usr/local/cuda-10.2/lib64:/home/agilex/nav2_ws/install/nav_2d_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/agilex/control_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/agilex'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.6.1'), ('JETSON_TENSORRT', 'NOT_INSTALLED'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '6504'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('JETSON_OPENCV_CUDA', 'NO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('_colcon_cd_root', '/home/agilex/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/agilex/control_ws/install:/home/agilex/nav2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'agilex'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:42563'), ('JETSON_SERIAL_NUMBER', '1423522029316'), ('JETSON_MODULE', 'P3448-0002'), ('JETSON_CUDNN', 'NOT_INSTALLED'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'porg'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/agilex/catkin_ws/devel/lib/pkgconfig:/home/agilex/agilex_ws/devel/lib/pkgconfig'), ('USERNAME', 'agilex'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/usr/local/cuda-10.2/bin:/opt/ros/eloquent/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '3b2e603608a74f01926b73ae08a25dce'), ('JETSON_OPENCV', '3.2.0'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/agilex:@/tmp/.ICE-unix/8641,unix/agilex:/tmp/.ICE-unix/8641'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6608b120_587c_4676_be29_b891055d1169'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano'), ('JETSON_L4T_REVISION', '6.1'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/controller:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_VULKAN_INFO', '1.2.70'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/agilex/control_ws/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:/home/agilex/agilex_ws/devel/lib/python2.7/dist-packages:/home/agilex/nav2_ws/install/nav_2d_msgs/lib/python3.6/site-packages:/home/agilex/nav2_ws/install/nav2_common/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('JETSON_VPI', 'ii libnvvpi1 1.1.12 arm64 NVIDIA Vision Programming Interface library'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common')]), 'shell': False}
+[2.334942] (-) TimerEvent: {}
+[2.436672] (-) TimerEvent: {}
+[2.537902] (-) TimerEvent: {}
+[2.640690] (-) TimerEvent: {}
+[2.742461] (-) TimerEvent: {}
+[2.843289] (-) TimerEvent: {}
+[2.944128] (-) TimerEvent: {}
+[3.045054] (-) TimerEvent: {}
+[3.149112] (-) TimerEvent: {}
+[3.250852] (-) TimerEvent: {}
+[3.351896] (-) TimerEvent: {}
+[3.452675] (-) TimerEvent: {}
+[3.553549] (-) TimerEvent: {}
+[3.665249] (-) TimerEvent: {}
+[3.766566] (-) TimerEvent: {}
+[3.868289] (-) TimerEvent: {}
+[3.969126] (-) TimerEvent: {}
+[4.070516] (-) TimerEvent: {}
+[4.172412] (-) TimerEvent: {}
+[4.273529] (-) TimerEvent: {}
+[4.341973] (interfaces) StdoutLine: {'line': b'[  3%] Built target interfaces__cpp\n'}
+[4.343026] (interfaces) StdoutLine: {'line': b'[ 13%] Built target interfaces__rosidl_generator_c\n'}
+[4.343634] (interfaces) StdoutLine: {'line': b'[ 24%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[4.344133] (interfaces) StdoutLine: {'line': b'[ 34%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[4.344607] (interfaces) StdoutLine: {'line': b'[ 44%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[4.345073] (interfaces) StdoutLine: {'line': b'[ 55%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[4.345548] (interfaces) StdoutLine: {'line': b'[ 65%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[4.371073] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces__rosidl_typesupport_c\n'}
+[4.373672] (-) TimerEvent: {}
+[4.436855] (interfaces) StdoutLine: {'line': b'[ 75%] Built target interfaces\n'}
+[4.473851] (-) TimerEvent: {}
+[4.507672] (interfaces) StdoutLine: {'line': b'[ 79%] Built target interfaces__py\n'}
+[4.570189] (interfaces) StdoutLine: {'line': b'[ 86%] Built target interfaces__python\n'}
+[4.574004] (-) TimerEvent: {}
+[4.638780] (interfaces) StdoutLine: {'line': b'[ 93%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.650974] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[4.674272] (-) TimerEvent: {}
+[4.776024] (-) TimerEvent: {}
+[4.876826] (-) TimerEvent: {}
+[4.977675] (-) TimerEvent: {}
+[5.078595] (-) TimerEvent: {}
+[5.180073] (-) TimerEvent: {}
+[5.281020] (-) TimerEvent: {}
+[5.381895] (-) TimerEvent: {}
+[5.482806] (-) TimerEvent: {}
+[5.583746] (-) TimerEvent: {}
+[5.684894] (-) TimerEvent: {}
+[5.785870] (-) TimerEvent: {}
+[5.886817] (-) TimerEvent: {}
+[5.991319] (-) TimerEvent: {}
+[6.092499] (-) TimerEvent: {}
+[6.194838] (-) TimerEvent: {}
+[6.303936] (-) TimerEvent: {}
+[6.405539] (-) TimerEvent: {}
+[6.507689] (-) TimerEvent: {}
+[6.524943] (interfaces) CommandEnded: {'returncode': 0}
+[6.608037] (-) TimerEvent: {}
+[6.714740] (-) TimerEvent: {}
+[6.815629] (-) TimerEvent: {}
+[6.916586] (-) TimerEvent: {}
+[7.017471] (-) TimerEvent: {}
+[7.118360] (-) TimerEvent: {}
+[7.219575] (-) TimerEvent: {}
+[7.321689] (-) TimerEvent: {}
+[7.422649] (-) TimerEvent: {}
+[7.523639] (-) TimerEvent: {}
+[7.624580] (-) TimerEvent: {}
+[7.726824] (-) TimerEvent: {}
+[7.827811] (-) TimerEvent: {}
+[7.928978] (-) TimerEvent: {}
+[8.035260] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[8.035926] (-) TimerEvent: {}
+[8.139076] (-) TimerEvent: {}
+[8.239966] (-) TimerEvent: {}
+[8.340796] (-) TimerEvent: {}
+[8.444889] (-) TimerEvent: {}
+[8.546529] (-) TimerEvent: {}
+[8.584366] (interfaces) Command: {'cmd': ['/home/agilex/.local/bin/cmake', '--install', '/home/agilex/control_ws/build/interfaces'], 'cwd': '/home/agilex/control_ws/build/interfaces', 'env': OrderedDict([('JETSON_BOARD', 'P3449-0000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('JETSON_TYPE', 'Nano'), ('UNITY_DEFAULT_PROFILE', 'unity'), ('GTK_CSD', '0'), ('USER', 'agilex'), ('UNITY_HAS_3D_SUPPORT', 'true'), ('LANGUAGE', 'en'), ('LC_TIME', 'en_US.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('JETSON_CUDA', '10.2.300'), ('COMPIZ_CONFIG_PROFILE', 'ubuntu'), ('XDG_SESSION_TYPE', 'x11'), ('GNOME_SESSION_XDG_SESSION_PATH', ''), ('LD_LIBRARY_PATH', '/home/agilex/control_ws/install/interfaces/lib:/home/agilex/catkin_ws/devel/lib:/home/agilex/agilex_ws/devel/lib:/usr/local/cuda-10.2/lib64:/home/agilex/nav2_ws/install/nav_2d_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/agilex/control_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/agilex'), ('DESKTOP_SESSION', 'unity'), ('JETSON_L4T', '32.6.1'), ('JETSON_TENSORRT', 'NOT_INSTALLED'), ('GTK_MODULES', 'gail:atk-bridge:unity-gtk-module'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '6504'), ('JETSON_VISIONWORKS', '1.6.0.501'), ('JETSON_OPENCV_CUDA', 'NO'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('JETSON_CHIP_ID', '33'), ('_colcon_cd_root', '/home/agilex/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/unity.mandatory.path'), ('COLCON_PREFIX_PATH', '/home/agilex/control_ws/install:/home/agilex/nav2_ws/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'agilex'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '8:42563'), ('JETSON_SERIAL_NUMBER', '1423522029316'), ('JETSON_MODULE', 'P3448-0002'), ('JETSON_CUDNN', 'NOT_INSTALLED'), ('_', '/usr/bin/colcon'), ('DEFAULTS_PATH', '/usr/share/gconf/unity.default.path'), ('JETSON_CODENAME', 'porg'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/agilex/catkin_ws/devel/lib/pkgconfig:/home/agilex/agilex_ws/devel/lib/pkgconfig'), ('USERNAME', 'agilex'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/usr/local/cuda-10.2/bin:/opt/ros/eloquent/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '3b2e603608a74f01926b73ae08a25dce'), ('JETSON_OPENCV', '3.2.0'), ('PAPERSIZE', 'letter'), ('SESSION_MANAGER', 'local/agilex:@/tmp/.ICE-unix/8641,unix/agilex:/tmp/.ICE-unix/8641'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6608b120_587c_4676_be29_b891055d1169'), ('LC_ADDRESS', 'en_US.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('COMPIZ_BIN_PATH', '/usr/bin/'), ('LANG', 'en_US.UTF-8'), ('JETSON_MACHINE', 'NVIDIA Jetson Nano'), ('JETSON_L4T_REVISION', '6.1'), ('XDG_CURRENT_DESKTOP', 'Unity:Unity7:ubuntu'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('LD_PRELOAD', 'libgtk3-nocsd.so.0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('XDG_SESSION_DESKTOP', 'unity'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.146'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/controller:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('LC_NAME', 'en_US.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'unity'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', '3448'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('JETSON_L4T_RELEASE', '32'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('JETSON_VULKAN_INFO', '1.2.70'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/agilex/control_ws/build/interfaces'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-unity:/etc/xdg'), ('LC_NUMERIC', 'en_US.UTF-8'), ('PYTHONPATH', '/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:/home/agilex/agilex_ws/devel/lib/python2.7/dist-packages:/home/agilex/nav2_ws/install/nav_2d_msgs/lib/python3.6/site-packages:/home/agilex/nav2_ws/install/nav2_common/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('JETSON_VPI', 'ii libnvvpi1 1.1.12 arm64 NVIDIA Vision Programming Interface library'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common')]), 'shell': False}
+[8.647978] (-) TimerEvent: {}
+[8.748946] (-) TimerEvent: {}
+[8.849791] (-) TimerEvent: {}
+[8.952591] (-) TimerEvent: {}
+[9.053864] (-) TimerEvent: {}
+[9.074473] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.075881] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[9.080942] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[9.082430] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[9.087020] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[9.091504] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[9.092649] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces\n'}
+[9.093346] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg\n'}
+[9.093894] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.094571] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_fastrtps_c.h\n'}
+[9.102926] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[9.105458] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces\n'}
+[9.107283] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg\n'}
+[9.109237] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.111065] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__functions.h\n'}
+[9.111780] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__struct.h\n'}
+[9.113304] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__functions.c\n'}
+[9.114134] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__type_support.h\n'}
+[9.114776] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree.h\n'}
+[9.115419] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[9.115969] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces\n'}
+[9.116555] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg\n'}
+[9.123430] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.124304] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.124845] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/dds_fastrtps\n'}
+[9.125552] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.126482] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces\n'}
+[9.127028] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg\n'}
+[9.127771] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__struct.hpp\n'}
+[9.128559] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__traits.hpp\n'}
+[9.129319] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree.hpp\n'}
+[9.129835] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces\n'}
+[9.130308] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg\n'}
+[9.130784] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__type_support.c\n'}
+[9.131358] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_introspection_c.h\n'}
+[9.134613] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.139279] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[9.139957] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces\n'}
+[9.140460] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg\n'}
+[9.140936] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.141401] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__type_support.cpp\n'}
+[9.141853] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[9.142293] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[9.142747] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[9.143274] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py\n'}
+[9.154056] (-) TimerEvent: {}
+[9.254921] (-) TimerEvent: {}
+[9.355778] (-) TimerEvent: {}
+[9.456957] (-) TimerEvent: {}
+[9.554337] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg\n'}
+[9.555502] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/__init__.py\n'}
+[9.556113] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_entree.py\n'}
+[9.556587] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_entree_s.c\n'}
+[9.557101] (-) TimerEvent: {}
+[9.559765] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[9.562066] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so\n'}
+[9.563540] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__python.so\n'}
+[9.565393] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/msg/Entree.idl\n'}
+[9.567635] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/msg/Entree.msg\n'}
+[9.568427] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[9.570597] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[9.571164] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[9.574605] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[9.575992] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[9.576590] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[9.577093] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[9.604503] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[9.605152] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[9.605725] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[9.606298] (interfaces) StdoutLine: {'line': b'-- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[9.620350] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[9.621602] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[9.622363] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.622970] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.623603] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[9.624209] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[9.624772] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/package.xml\n'}
+[9.656239] (interfaces) CommandEnded: {'returncode': 0}
+[9.661297] (-) TimerEvent: {}
+[9.765272] (-) TimerEvent: {}
+[9.922900] (-) TimerEvent: {}
+[10.032489] (-) TimerEvent: {}
+[10.133577] (-) TimerEvent: {}
+[10.235433] (-) TimerEvent: {}
+[10.336593] (-) TimerEvent: {}
+[10.437687] (-) TimerEvent: {}
+[10.538565] (-) TimerEvent: {}
+[10.639584] (-) TimerEvent: {}
+[10.741438] (-) TimerEvent: {}
+[10.842579] (-) TimerEvent: {}
+[10.943559] (-) TimerEvent: {}
+[11.035535] (controller) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/controller', 'build', '--build-base', '/home/agilex/control_ws/build/controller/build', 'install', '--record', '/home/agilex/control_ws/build/controller/install.log', '--install-scripts', '$base/lib/controller', '--single-version-externally-managed'], 'cwd': '/home/agilex/control_ws/src/controller', 'env': {'JETSON_BOARD': 'P3449-0000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'Nano', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'agilex', 'UNITY_HAS_3D_SUPPORT': 'true', 'LANGUAGE': 'en', 'LC_TIME': 'en_US.UTF-8', 'TEXTDOMAIN': 'im-config', 'JETSON_CUDA': '10.2.300', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/home/agilex/control_ws/install/interfaces/lib:/home/agilex/catkin_ws/devel/lib:/home/agilex/agilex_ws/devel/lib:/usr/local/cuda-10.2/lib64:/home/agilex/nav2_ws/install/nav_2d_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'OLDPWD': '/home/agilex/control_ws/src', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/agilex', 'DESKTOP_SESSION': 'unity', 'JETSON_L4T': '32.6.1', 'JETSON_TENSORRT': 'NOT_INSTALLED', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6504', 'JETSON_VISIONWORKS': '1.6.0.501', 'JETSON_OPENCV_CUDA': 'NO', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', '_colcon_cd_root': '/home/agilex/ros2_install', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/agilex/control_ws/install:/home/agilex/nav2_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'agilex', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:42563', 'JETSON_SERIAL_NUMBER': '1423522029316', 'JETSON_MODULE': 'P3448-0002', 'JETSON_CUDNN': 'NOT_INSTALLED', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'JETSON_CODENAME': 'porg', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/agilex/catkin_ws/devel/lib/pkgconfig:/home/agilex/agilex_ws/devel/lib/pkgconfig', 'USERNAME': 'agilex', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/usr/local/cuda-10.2/bin:/opt/ros/eloquent/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '3b2e603608a74f01926b73ae08a25dce', 'JETSON_OPENCV': '3.2.0', 'PAPERSIZE': 'letter', 'SESSION_MANAGER': 'local/agilex:@/tmp/.ICE-unix/8641,unix/agilex:/tmp/.ICE-unix/8641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6608b120_587c_4676_be29_b891055d1169', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'JETSON_MACHINE': 'NVIDIA Jetson Nano', 'JETSON_L4T_REVISION': '6.1', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LC_TELEPHONE': 'en_US.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.146', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/controller:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'LC_NAME': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_VULKAN_INFO': '1.2.70', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/agilex/control_ws/build/controller', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/home/agilex/control_ws/build/controller/prefix_override:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:/home/agilex/agilex_ws/devel/lib/python2.7/dist-packages:/home/agilex/nav2_ws/install/nav_2d_msgs/lib/python3.6/site-packages:/home/agilex/nav2_ws/install/nav2_common/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'JETSON_VPI': 'ii libnvvpi1 1.1.12 arm64 NVIDIA Vision Programming Interface library', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/agilex/control_ws/install/interfaces:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common'}, 'shell': False}
+[11.055791] (-) TimerEvent: {}
+[11.099819] (teleop_twist_keyboard) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teleop_twist_keyboard', 'build', '--build-base', '/home/agilex/control_ws/build/teleop_twist_keyboard/build', 'install', '--record', '/home/agilex/control_ws/build/teleop_twist_keyboard/install.log', '--single-version-externally-managed'], 'cwd': '/home/agilex/control_ws/src/teleop_twist_keyboard', 'env': {'JETSON_BOARD': 'P3449-0000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'Nano', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'agilex', 'UNITY_HAS_3D_SUPPORT': 'true', 'LANGUAGE': 'en', 'LC_TIME': 'en_US.UTF-8', 'TEXTDOMAIN': 'im-config', 'JETSON_CUDA': '10.2.300', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/home/agilex/control_ws/install/interfaces/lib:/home/agilex/catkin_ws/devel/lib:/home/agilex/agilex_ws/devel/lib:/usr/local/cuda-10.2/lib64:/home/agilex/nav2_ws/install/nav_2d_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'OLDPWD': '/home/agilex/control_ws/src', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/agilex', 'DESKTOP_SESSION': 'unity', 'JETSON_L4T': '32.6.1', 'JETSON_TENSORRT': 'NOT_INSTALLED', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6504', 'JETSON_VISIONWORKS': '1.6.0.501', 'JETSON_OPENCV_CUDA': 'NO', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', '_colcon_cd_root': '/home/agilex/ros2_install', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/agilex/control_ws/install:/home/agilex/nav2_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'agilex', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:42563', 'JETSON_SERIAL_NUMBER': '1423522029316', 'JETSON_MODULE': 'P3448-0002', 'JETSON_CUDNN': 'NOT_INSTALLED', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'JETSON_CODENAME': 'porg', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/agilex/catkin_ws/devel/lib/pkgconfig:/home/agilex/agilex_ws/devel/lib/pkgconfig', 'USERNAME': 'agilex', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/usr/local/cuda-10.2/bin:/opt/ros/eloquent/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '3b2e603608a74f01926b73ae08a25dce', 'JETSON_OPENCV': '3.2.0', 'PAPERSIZE': 'letter', 'SESSION_MANAGER': 'local/agilex:@/tmp/.ICE-unix/8641,unix/agilex:/tmp/.ICE-unix/8641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6608b120_587c_4676_be29_b891055d1169', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'JETSON_MACHINE': 'NVIDIA Jetson Nano', 'JETSON_L4T_REVISION': '6.1', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LC_TELEPHONE': 'en_US.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.146', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/controller:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'LC_NAME': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_VULKAN_INFO': '1.2.70', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/agilex/control_ws/build/teleop_twist_keyboard', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/home/agilex/control_ws/build/teleop_twist_keyboard/prefix_override:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:/home/agilex/agilex_ws/devel/lib/python2.7/dist-packages:/home/agilex/nav2_ws/install/nav_2d_msgs/lib/python3.6/site-packages:/home/agilex/nav2_ws/install/nav2_common/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'JETSON_VPI': 'ii libnvvpi1 1.1.12 arm64 NVIDIA Vision Programming Interface library', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/agilex/control_ws/install/interfaces:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common'}, 'shell': False}
+[11.142450] (sensors_nodes) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/sensors_nodes', 'build', '--build-base', '/home/agilex/control_ws/build/sensors_nodes/build', 'install', '--record', '/home/agilex/control_ws/build/sensors_nodes/install.log', '--install-scripts', '$base/lib/sensors_nodes', '--single-version-externally-managed'], 'cwd': '/home/agilex/control_ws/src/sensors_nodes', 'env': {'JETSON_BOARD': 'P3449-0000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'Nano', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'agilex', 'UNITY_HAS_3D_SUPPORT': 'true', 'LANGUAGE': 'en', 'LC_TIME': 'en_US.UTF-8', 'TEXTDOMAIN': 'im-config', 'JETSON_CUDA': '10.2.300', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/home/agilex/control_ws/install/interfaces/lib:/home/agilex/catkin_ws/devel/lib:/home/agilex/agilex_ws/devel/lib:/usr/local/cuda-10.2/lib64:/home/agilex/nav2_ws/install/nav_2d_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'OLDPWD': '/home/agilex/control_ws/src', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/agilex', 'DESKTOP_SESSION': 'unity', 'JETSON_L4T': '32.6.1', 'JETSON_TENSORRT': 'NOT_INSTALLED', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6504', 'JETSON_VISIONWORKS': '1.6.0.501', 'JETSON_OPENCV_CUDA': 'NO', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', '_colcon_cd_root': '/home/agilex/ros2_install', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/agilex/control_ws/install:/home/agilex/nav2_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'agilex', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:42563', 'JETSON_SERIAL_NUMBER': '1423522029316', 'JETSON_MODULE': 'P3448-0002', 'JETSON_CUDNN': 'NOT_INSTALLED', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'JETSON_CODENAME': 'porg', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/agilex/catkin_ws/devel/lib/pkgconfig:/home/agilex/agilex_ws/devel/lib/pkgconfig', 'USERNAME': 'agilex', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/usr/local/cuda-10.2/bin:/opt/ros/eloquent/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '3b2e603608a74f01926b73ae08a25dce', 'JETSON_OPENCV': '3.2.0', 'PAPERSIZE': 'letter', 'SESSION_MANAGER': 'local/agilex:@/tmp/.ICE-unix/8641,unix/agilex:/tmp/.ICE-unix/8641', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6608b120_587c_4676_be29_b891055d1169', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'JETSON_MACHINE': 'NVIDIA Jetson Nano', 'JETSON_L4T_REVISION': '6.1', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LC_TELEPHONE': 'en_US.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.146', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/controller:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'LC_NAME': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_VULKAN_INFO': '1.2.70', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/agilex/control_ws/build/sensors_nodes', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/home/agilex/control_ws/build/sensors_nodes/prefix_override:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:/home/agilex/agilex_ws/devel/lib/python2.7/dist-packages:/home/agilex/nav2_ws/install/nav_2d_msgs/lib/python3.6/site-packages:/home/agilex/nav2_ws/install/nav2_common/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'JETSON_VPI': 'ii libnvvpi1 1.1.12 arm64 NVIDIA Vision Programming Interface library', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/agilex/control_ws/install/interfaces:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common'}, 'shell': False}
+[11.155867] (-) TimerEvent: {}
+[11.257630] (-) TimerEvent: {}
+[11.359015] (-) TimerEvent: {}
+[11.461202] (-) TimerEvent: {}
+[11.464341] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[11.561396] (-) TimerEvent: {}
+[11.662195] (-) TimerEvent: {}
+[11.763590] (-) TimerEvent: {}
+[11.864714] (-) TimerEvent: {}
+[11.966140] (-) TimerEvent: {}
+[12.068989] (-) TimerEvent: {}
+[12.170293] (-) TimerEvent: {}
+[12.272105] (-) TimerEvent: {}
+[12.375591] (-) TimerEvent: {}
+[12.476604] (-) TimerEvent: {}
+[12.577818] (-) TimerEvent: {}
+[12.678615] (-) TimerEvent: {}
+[12.781418] (-) TimerEvent: {}
+[12.882356] (-) TimerEvent: {}
+[12.984590] (-) TimerEvent: {}
+[13.085397] (-) TimerEvent: {}
+[13.186426] (-) TimerEvent: {}
+[13.209432] (controller) StderrLine: {'line': b"/home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[13.210283] (controller) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[13.287841] (-) TimerEvent: {}
+[13.390193] (-) TimerEvent: {}
+[13.492828] (-) TimerEvent: {}
+[13.501040] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[13.508144] (controller) StdoutLine: {'line': b'writing ../../build/controller/controller.egg-info/PKG-INFO\n'}
+[13.510227] (controller) StdoutLine: {'line': b'writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt\n'}
+[13.511719] (controller) StdoutLine: {'line': b'writing entry points to ../../build/controller/controller.egg-info/entry_points.txt\n'}
+[13.513549] (controller) StdoutLine: {'line': b'writing requirements to ../../build/controller/controller.egg-info/requires.txt\n'}
+[13.514937] (controller) StdoutLine: {'line': b'writing top-level names to ../../build/controller/controller.egg-info/top_level.txt\n'}
+[13.544482] (controller) StdoutLine: {'line': b"reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[13.552533] (controller) StdoutLine: {'line': b"writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'\n"}
+[13.553476] (controller) StdoutLine: {'line': b'running build\n'}
+[13.554015] (controller) StdoutLine: {'line': b'running build_py\n'}
+[13.554867] (controller) StdoutLine: {'line': b'running install\n'}
+[13.557220] (controller) StderrLine: {'line': b'/home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.557889] (controller) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[13.558991] (controller) StdoutLine: {'line': b'running install_lib\n'}
+[13.565814] (controller) StdoutLine: {'line': b'running install_data\n'}
+[13.566776] (sensors_nodes) StderrLine: {'line': b"/home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[13.567598] (sensors_nodes) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[13.581039] (controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.593010] (-) TimerEvent: {}
+[13.606141] (controller) StdoutLine: {'line': b"removing '/home/agilex/control_ws/install/controller/lib/python3.6/site-packages/controller-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[13.607872] (controller) StdoutLine: {'line': b'Copying ../../build/controller/controller.egg-info to /home/agilex/control_ws/install/controller/lib/python3.6/site-packages/controller-0.0.0-py3.6.egg-info\n'}
+[13.618997] (controller) StdoutLine: {'line': b'running install_scripts\n'}
+[13.652210] (teleop_twist_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[13.656430] (teleop_twist_keyboard) StdoutLine: {'line': b'writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO\n'}
+[13.657506] (teleop_twist_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt\n'}
+[13.660677] (teleop_twist_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt\n'}
+[13.661375] (teleop_twist_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt\n'}
+[13.661948] (teleop_twist_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt\n'}
+[13.674414] (teleop_twist_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[13.676964] (teleop_twist_keyboard) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[13.684379] (teleop_twist_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'\n"}
+[13.686437] (teleop_twist_keyboard) StdoutLine: {'line': b'running build\n'}
+[13.687091] (teleop_twist_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[13.691203] (teleop_twist_keyboard) StdoutLine: {'line': b'running install\n'}
+[13.693359] (-) TimerEvent: {}
+[13.694396] (teleop_twist_keyboard) StderrLine: {'line': b'/home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.695532] (teleop_twist_keyboard) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[13.699464] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[13.705381] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[13.709868] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.723178] (teleop_twist_keyboard) StdoutLine: {'line': b"removing '/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages/teleop_twist_keyboard-2.3.2-py3.6.egg-info' (and everything under it)\n"}
+[13.727051] (teleop_twist_keyboard) StdoutLine: {'line': b'Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages/teleop_twist_keyboard-2.3.2-py3.6.egg-info\n'}
+[13.736883] (teleop_twist_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[13.793552] (-) TimerEvent: {}
+[13.807308] (controller) StdoutLine: {'line': b'Installing controlnode script to /home/agilex/control_ws/install/controller/lib/controller\n'}
+[13.809554] (controller) StdoutLine: {'line': b"writing list of installed files to '/home/agilex/control_ws/build/controller/install.log'\n"}
+[13.855907] (teleop_twist_keyboard) StdoutLine: {'line': b'Installing teleop_twist_keyboard script to /home/agilex/control_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard\n'}
+[13.856936] (sensors_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[13.859435] (teleop_twist_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/agilex/control_ws/build/teleop_twist_keyboard/install.log'\n"}
+[13.863057] (sensors_nodes) StdoutLine: {'line': b'writing ../../build/sensors_nodes/sensors_nodes.egg-info/PKG-INFO\n'}
+[13.864253] (sensors_nodes) StdoutLine: {'line': b'writing dependency_links to ../../build/sensors_nodes/sensors_nodes.egg-info/dependency_links.txt\n'}
+[13.865468] (sensors_nodes) StdoutLine: {'line': b'writing entry points to ../../build/sensors_nodes/sensors_nodes.egg-info/entry_points.txt\n'}
+[13.866614] (sensors_nodes) StdoutLine: {'line': b'writing requirements to ../../build/sensors_nodes/sensors_nodes.egg-info/requires.txt\n'}
+[13.867809] (sensors_nodes) StdoutLine: {'line': b'writing top-level names to ../../build/sensors_nodes/sensors_nodes.egg-info/top_level.txt\n'}
+[13.895702] (-) TimerEvent: {}
+[13.898207] (sensors_nodes) StdoutLine: {'line': b"reading manifest file '../../build/sensors_nodes/sensors_nodes.egg-info/SOURCES.txt'\n"}
+[13.923186] (sensors_nodes) StdoutLine: {'line': b"writing manifest file '../../build/sensors_nodes/sensors_nodes.egg-info/SOURCES.txt'\n"}
+[13.924137] (sensors_nodes) StdoutLine: {'line': b'running build\n'}
+[13.925113] (sensors_nodes) StdoutLine: {'line': b'running build_py\n'}
+[13.928935] (sensors_nodes) StdoutLine: {'line': b'running install\n'}
+[13.931000] (sensors_nodes) StderrLine: {'line': b'/home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[13.931905] (sensors_nodes) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[13.937493] (sensors_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[13.954054] (sensors_nodes) StdoutLine: {'line': b'running install_data\n'}
+[13.962670] (sensors_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.975374] (controller) CommandEnded: {'returncode': 0}
+[13.982063] (sensors_nodes) StdoutLine: {'line': b"removing '/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages/sensors_nodes-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[13.984044] (sensors_nodes) StdoutLine: {'line': b'Copying ../../build/sensors_nodes/sensors_nodes.egg-info to /home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages/sensors_nodes-0.0.0-py3.6.egg-info\n'}
+[13.997804] (-) TimerEvent: {}
+[13.999147] (sensors_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[14.028068] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[14.036197] (teleop_twist_keyboard) CommandEnded: {'returncode': 0}
+[14.077285] (teleop_twist_keyboard) JobEnded: {'identifier': 'teleop_twist_keyboard', 'rc': 0}
+[14.098227] (-) TimerEvent: {}
+[14.107646] (sensors_nodes) StdoutLine: {'line': b'Installing imu_node script to /home/agilex/control_ws/install/sensors_nodes/lib/sensors_nodes\n'}
+[14.109751] (sensors_nodes) StdoutLine: {'line': b"writing list of installed files to '/home/agilex/control_ws/build/sensors_nodes/install.log'\n"}
+[14.198828] (-) TimerEvent: {}
+[14.253103] (sensors_nodes) CommandEnded: {'returncode': 0}
+[14.292425] (sensors_nodes) JobEnded: {'identifier': 'sensors_nodes', 'rc': 0}
+[14.297142] (-) EventReactorShutdown: {}

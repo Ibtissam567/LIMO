@@ -1,0 +1,159 @@
+[2.161s] Invoking command in '/home/agilex/control_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --build /home/agilex/control_ws/build/interfaces -- -j4 -l4
+[4.126s] -- Found ament_cmake: 0.8.3 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[4.222s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[4.223s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.748s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[6.185s] -- Found rosidl_adapter: 0.8.3 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[6.882s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[8.462s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[8.491s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[9.221s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[9.538s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[9.540s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[9.766s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.767s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[9.767s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.6m.so
+[10.627s] -- Found ament_lint_auto: 0.8.2 (/opt/ros/eloquent/share/ament_lint_auto/cmake)
+[10.782s] -- Added test 'lint_cmake' to check CMake code style
+[10.793s] -- Added test 'xmllint' to check XML markup files
+[10.844s] -- Configuring done
+[11.482s] -- Generating done
+[11.511s] -- Build files have been written to: /home/agilex/control_ws/build/interfaces
+[11.713s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.795s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.999s] [  6%] Built target interfaces__cpp
+[14.022s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.023s] [ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.534s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_generator_c[0m
+[14.588s] [ 17%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/entree__functions.c.o[0m
+[17.001s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_cpp[0m
+[17.069s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[17.445s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/entree__type_support.cpp.o[0m
+[17.447s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/dds_fastrtps/entree__type_support.cpp.o[0m
+[21.153s] [ 27%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[21.443s] [ 27%] Built target interfaces__rosidl_generator_c
+[21.473s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.355s] [ 34%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[22.489s] [ 34%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[22.887s] [ 37%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.205s] [ 37%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[23.229s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.234s] [ 44%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.259s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_introspection_c[0m
+[23.301s] [ 48%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/entree__type_support.c.o[0m
+[23.425s] [ 51%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[23.512s] [ 51%] Built target interfaces__rosidl_typesupport_introspection_c
+[24.697s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_cpp[0m
+[24.743s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/entree__type_support.cpp.o[0m
+[24.883s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c[0m
+[24.922s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/entree__type_support_c.cpp.o[0m
+[26.163s] [ 62%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[26.230s] [ 65%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[26.482s] [ 65%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[26.507s] [ 68%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[26.534s] [ 68%] Built target interfaces__rosidl_typesupport_cpp
+[27.888s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c[0m
+[27.912s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/entree__type_support.cpp.o[0m
+[28.008s] [ 75%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[28.153s] [ 75%] Built target interfaces__rosidl_typesupport_c
+[28.197s] [ 75%] Built target interfaces
+[28.245s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[31.125s] [ 79%] Built target interfaces__py
+[31.148s] [35m[1mConsolidate compiler generated dependencies of target interfaces__python[0m
+[31.225s] [ 82%] [32mBuilding C object CMakeFiles/interfaces__python.dir/rosidl_generator_py/interfaces/msg/_entree_s.c.o[0m
+[31.730s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/libinterfaces__python.so[0m
+[31.930s] [ 86%] Built target interfaces__python
+[31.958s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_c__pyext[0m
+[31.964s] [35m[1mConsolidate compiler generated dependencies of target interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[31.989s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[31.998s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.268s] [ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so[0m
+[32.285s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so[0m
+[32.465s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[32.480s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[32.524s] Invoked command in '/home/agilex/control_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --build /home/agilex/control_ws/build/interfaces -- -j4 -l4
+[33.254s] Invoking command in '/home/agilex/control_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --install /home/agilex/control_ws/build/interfaces
+[33.483s] -- Install configuration: ""
+[33.486s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[33.489s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[33.490s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[33.491s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[33.491s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[33.492s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[33.493s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[33.494s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces
+[33.495s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg
+[33.495s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[33.496s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_fastrtps_c.h
+[33.497s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[33.498s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[33.499s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces
+[33.500s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg
+[33.501s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_generator_c__visibility_control.h
+[33.502s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__functions.h
+[33.503s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__struct.h
+[33.503s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__functions.c
+[33.504s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__type_support.h
+[33.508s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree.h
+[33.511s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[33.512s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[33.515s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces
+[33.516s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg
+[33.517s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_fastrtps_cpp.hpp
+[33.517s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[33.518s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/dds_fastrtps
+[33.518s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[33.519s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[33.519s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces
+[33.520s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg
+[33.521s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__struct.hpp
+[33.521s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__traits.hpp
+[33.522s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree.hpp
+[33.523s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces
+[33.523s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg
+[33.524s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__type_support.c
+[33.524s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_introspection_c.h
+[33.525s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[33.526s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[33.526s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[33.527s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces
+[33.527s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/include/interfaces/msg
+[33.528s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__rosidl_typesupport_introspection_cpp.hpp
+[33.528s] -- Installing: /home/agilex/control_ws/install/interfaces/include/interfaces/msg/entree__type_support.cpp
+[33.529s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[33.529s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[33.530s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[33.530s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[33.530s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py
+[33.722s] Compiling '/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/__init__.py'...
+[33.746s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg
+[33.747s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/__init__.py
+[33.747s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_entree.py
+[33.748s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/msg/_entree_s.c
+[33.750s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so
+[33.751s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[33.752s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so
+[33.754s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-36m-aarch64-linux-gnu.so" to ""
+[33.755s] -- Installing: /home/agilex/control_ws/install/interfaces/lib/libinterfaces__python.so
+[33.756s] -- Set runtime path of "/home/agilex/control_ws/install/interfaces/lib/libinterfaces__python.so" to ""
+[33.757s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/msg/Entree.idl
+[33.758s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/msg/Entree.msg
+[33.759s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[33.759s] -- Installing: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[33.760s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[33.761s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[33.761s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/path.sh
+[33.762s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/environment/path.dsv
+[33.763s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.bash
+[33.763s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.sh
+[33.764s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.zsh
+[33.764s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/local_setup.dsv
+[33.765s] -- Installing: /home/agilex/control_ws/install/interfaces/share/interfaces/package.dsv
+[33.766s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[33.766s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[33.767s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[33.767s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.768s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[33.769s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[33.769s] -- Up-to-date: /home/agilex/control_ws/install/interfaces/share/interfaces/package.xml
+[33.798s] Invoked command in '/home/agilex/control_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --install /home/agilex/control_ws/build/interfaces

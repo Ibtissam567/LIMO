@@ -1,0 +1,28 @@
+[10.329s] Invoking command in '/home/agilex/control_ws/src/controller': PYTHONPATH=/home/agilex/control_ws/build/controller/prefix_override:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/agilex/control_ws/build/controller/build install --record /home/agilex/control_ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed
+[12.588s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[12.589s]   % (opt, underscore_opt)
+[12.902s] running egg_info
+[12.909s] writing ../../build/controller/controller.egg-info/PKG-INFO
+[12.910s] writing dependency_links to ../../build/controller/controller.egg-info/dependency_links.txt
+[12.912s] writing entry points to ../../build/controller/controller.egg-info/entry_points.txt
+[12.913s] writing requirements to ../../build/controller/controller.egg-info/requires.txt
+[12.916s] writing top-level names to ../../build/controller/controller.egg-info/top_level.txt
+[12.938s] reading manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[12.962s] writing manifest file '../../build/controller/controller.egg-info/SOURCES.txt'
+[12.969s] running build
+[12.969s] running build_py
+[12.988s] copying controller/controlnode.py -> /home/agilex/control_ws/build/controller/build/lib/controller
+[12.989s] running install
+[12.990s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.991s]   setuptools.SetuptoolsDeprecationWarning,
+[12.992s] running install_lib
+[12.996s] copying /home/agilex/control_ws/build/controller/build/lib/controller/controlnode.py -> /home/agilex/control_ws/install/controller/lib/python3.6/site-packages/controller
+[13.005s] byte-compiling /home/agilex/control_ws/install/controller/lib/python3.6/site-packages/controller/controlnode.py to controlnode.cpython-36.pyc
+[13.008s] running install_data
+[13.016s] running install_egg_info
+[13.026s] removing '/home/agilex/control_ws/install/controller/lib/python3.6/site-packages/controller-0.0.0-py3.6.egg-info' (and everything under it)
+[13.040s] Copying ../../build/controller/controller.egg-info to /home/agilex/control_ws/install/controller/lib/python3.6/site-packages/controller-0.0.0-py3.6.egg-info
+[13.044s] running install_scripts
+[13.171s] Installing controlnode script to /home/agilex/control_ws/install/controller/lib/controller
+[13.176s] writing list of installed files to '/home/agilex/control_ws/build/controller/install.log'
+[13.391s] Invoked command in '/home/agilex/control_ws/src/controller' returned '0': PYTHONPATH=/home/agilex/control_ws/build/controller/prefix_override:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/agilex/control_ws/build/controller/build install --record /home/agilex/control_ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed

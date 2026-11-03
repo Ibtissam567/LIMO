@@ -1,0 +1,25 @@
+[9.597s] Invoking command in '/home/agilex/control_ws/src/calcul_position': PYTHONPATH=/home/agilex/control_ws/build/calcul_position/prefix_override:/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calcul_position build --build-base /home/agilex/control_ws/build/calcul_position/build install --record /home/agilex/control_ws/build/calcul_position/install.log --install-scripts $base/lib/calcul_position --single-version-externally-managed
+[11.608s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.608s]   % (opt, underscore_opt)
+[11.898s] running egg_info
+[11.905s] writing ../../build/calcul_position/calcul_position.egg-info/PKG-INFO
+[11.910s] writing dependency_links to ../../build/calcul_position/calcul_position.egg-info/dependency_links.txt
+[11.911s] writing entry points to ../../build/calcul_position/calcul_position.egg-info/entry_points.txt
+[11.912s] writing requirements to ../../build/calcul_position/calcul_position.egg-info/requires.txt
+[11.913s] writing top-level names to ../../build/calcul_position/calcul_position.egg-info/top_level.txt
+[11.927s] reading manifest file '../../build/calcul_position/calcul_position.egg-info/SOURCES.txt'
+[11.934s] writing manifest file '../../build/calcul_position/calcul_position.egg-info/SOURCES.txt'
+[11.937s] running build
+[11.938s] running build_py
+[11.939s] running install
+[11.940s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[11.941s]   setuptools.SetuptoolsDeprecationWarning,
+[11.942s] running install_lib
+[11.949s] running install_data
+[11.954s] running install_egg_info
+[11.964s] removing '/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages/calcul_position-0.0.0-py3.6.egg-info' (and everything under it)
+[11.965s] Copying ../../build/calcul_position/calcul_position.egg-info to /home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages/calcul_position-0.0.0-py3.6.egg-info
+[11.971s] running install_scripts
+[12.090s] Installing odom_node script to /home/agilex/control_ws/install/calcul_position/lib/calcul_position
+[12.092s] writing list of installed files to '/home/agilex/control_ws/build/calcul_position/install.log'
+[13.770s] Invoked command in '/home/agilex/control_ws/src/calcul_position' returned '0': PYTHONPATH=/home/agilex/control_ws/build/calcul_position/prefix_override:/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calcul_position build --build-base /home/agilex/control_ws/build/calcul_position/build install --record /home/agilex/control_ws/build/calcul_position/install.log --install-scripts $base/lib/calcul_position --single-version-externally-managed

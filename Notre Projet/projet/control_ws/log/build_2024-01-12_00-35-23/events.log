@@ -1,0 +1,104 @@
+[0.000000] (-) TimerEvent: {}
+[0.001020] (-) JobUnselected: {'identifier': 'controller'}
+[0.001888] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.006296] (-) JobUnselected: {'identifier': 'sensors_nodes'}
+[0.006476] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.007657] (calcul_position) JobQueued: {'identifier': 'calcul_position', 'dependencies': OrderedDict()}
+[0.007915] (calcul_position) JobStarted: {'identifier': 'calcul_position'}
+[0.097368] (-) TimerEvent: {}
+[0.198382] (-) TimerEvent: {}
+[0.299136] (-) TimerEvent: {}
+[0.399849] (-) TimerEvent: {}
+[0.500508] (-) TimerEvent: {}
+[0.601181] (-) TimerEvent: {}
+[0.701876] (-) TimerEvent: {}
+[0.802615] (-) TimerEvent: {}
+[0.903359] (-) TimerEvent: {}
+[1.004054] (-) TimerEvent: {}
+[1.105640] (-) TimerEvent: {}
+[1.206454] (-) TimerEvent: {}
+[1.309528] (-) TimerEvent: {}
+[1.410235] (-) TimerEvent: {}
+[1.510973] (-) TimerEvent: {}
+[1.611661] (-) TimerEvent: {}
+[1.712453] (-) TimerEvent: {}
+[1.813248] (-) TimerEvent: {}
+[1.914031] (-) TimerEvent: {}
+[2.015889] (-) TimerEvent: {}
+[2.116857] (-) TimerEvent: {}
+[2.217891] (-) TimerEvent: {}
+[2.318614] (-) TimerEvent: {}
+[2.419410] (-) TimerEvent: {}
+[2.520786] (-) TimerEvent: {}
+[2.621465] (-) TimerEvent: {}
+[2.722140] (-) TimerEvent: {}
+[2.823658] (-) TimerEvent: {}
+[2.924516] (-) TimerEvent: {}
+[3.025778] (-) TimerEvent: {}
+[3.126593] (-) TimerEvent: {}
+[3.227600] (-) TimerEvent: {}
+[3.328274] (-) TimerEvent: {}
+[3.428961] (-) TimerEvent: {}
+[3.529827] (-) TimerEvent: {}
+[3.630632] (-) TimerEvent: {}
+[3.732283] (-) TimerEvent: {}
+[3.833019] (-) TimerEvent: {}
+[3.933749] (-) TimerEvent: {}
+[4.034483] (-) TimerEvent: {}
+[4.136670] (-) TimerEvent: {}
+[4.237495] (-) TimerEvent: {}
+[4.338301] (-) TimerEvent: {}
+[4.439074] (-) TimerEvent: {}
+[4.539988] (-) TimerEvent: {}
+[4.640907] (-) TimerEvent: {}
+[4.653919] (calcul_position) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/calcul_position', 'build', '--build-base', '/home/agilex/control_ws/build/calcul_position/build', 'install', '--record', '/home/agilex/control_ws/build/calcul_position/install.log', '--install-scripts', '$base/lib/calcul_position', '--single-version-externally-managed'], 'cwd': '/home/agilex/control_ws/src/calcul_position', 'env': {'JETSON_BOARD': 'P3449-0000', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'JETSON_TYPE': 'Nano', 'UNITY_DEFAULT_PROFILE': 'unity', 'GTK_CSD': '0', 'USER': 'agilex', 'UNITY_HAS_3D_SUPPORT': 'true', 'LANGUAGE': 'en', 'LC_TIME': 'en_US.UTF-8', 'TEXTDOMAIN': 'im-config', 'JETSON_CUDA': '10.2.300', 'COMPIZ_CONFIG_PROFILE': 'ubuntu', 'XDG_SESSION_TYPE': 'x11', 'GNOME_SESSION_XDG_SESSION_PATH': '', 'LD_LIBRARY_PATH': '/home/agilex/control_ws/install/interfaces/lib:/home/agilex/catkin_ws/devel/lib:/home/agilex/agilex_ws/devel/lib:/usr/local/cuda-10.2/lib64:/home/agilex/nav2_ws/install/nav_2d_msgs/lib:/usr/lib/aarch64-linux-gnu/gazebo-9/plugins:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/aarch64-linux-gnu:/opt/ros/eloquent/lib', 'SHLVL': '2', 'OLDPWD': '/home/agilex/control_ws/src', 'QT4_IM_MODULE': 'xim', 'HOME': '/home/agilex', 'DESKTOP_SESSION': 'unity', 'JETSON_L4T': '32.6.1', 'JETSON_TENSORRT': 'NOT_INSTALLED', 'GTK_MODULES': 'gail:atk-bridge:unity-gtk-module', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_US.UTF-8', 'MANAGERPID': '6628', 'JETSON_VISIONWORKS': '1.6.0.501', 'JETSON_OPENCV_CUDA': 'NO', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'JETSON_CHIP_ID': '33', '_colcon_cd_root': '/home/agilex/ros2_install', 'MANDATORY_PATH': '/usr/share/gconf/unity.mandatory.path', 'COLCON_PREFIX_PATH': '/home/agilex/control_ws/install:/home/agilex/nav2_ws/install', 'IM_CONFIG_PHASE': '2', 'ROS_DISTRO': 'eloquent', 'LOGNAME': 'agilex', 'GTK_IM_MODULE': 'ibus', 'JOURNAL_STREAM': '8:43196', 'JETSON_SERIAL_NUMBER': '1423522029316', 'JETSON_MODULE': 'P3448-0002', 'JETSON_CUDNN': 'NOT_INSTALLED', '_': '/usr/bin/colcon', 'DEFAULTS_PATH': '/usr/share/gconf/unity.default.path', 'JETSON_CODENAME': 'porg', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/agilex/catkin_ws/devel/lib/pkgconfig:/home/agilex/agilex_ws/devel/lib/pkgconfig', 'USERNAME': 'agilex', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '1', 'PATH': '/usr/local/cuda-10.2/bin:/opt/ros/eloquent/bin:/home/agilex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'INVOCATION_ID': '46be0694902a4bb090734c68f6d40179', 'JETSON_OPENCV': '3.2.0', 'PAPERSIZE': 'letter', 'SESSION_MANAGER': 'local/agilex:@/tmp/.ICE-unix/8697,unix/agilex:/tmp/.ICE-unix/8697', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2f98e2ec_8210_48c6_825e_501ad6f40544', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'COMPIZ_BIN_PATH': '/usr/bin/', 'LANG': 'en_US.UTF-8', 'JETSON_MACHINE': 'NVIDIA Jetson Nano', 'JETSON_L4T_REVISION': '6.1', 'XDG_CURRENT_DESKTOP': 'Unity:Unity7:ubuntu', 'LC_TELEPHONE': 'en_US.UTF-8', 'LD_PRELOAD': 'libgtk3-nocsd.so.0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra210', 'XDG_SESSION_DESKTOP': 'unity', 'XMODIFIERS': '@im=ibus', 'GNOME_TERMINAL_SERVICE': ':1.93', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'AMENT_PREFIX_PATH': '/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/controller:/home/agilex/control_ws/install/calcul_position:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common:/opt/ros/eloquent', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'LC_NAME': 'en_US.UTF-8', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'unity', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'JETSON_BOARDIDS': '3448', 'LC_MEASUREMENT': 'en_US.UTF-8', 'JETSON_L4T_RELEASE': '32', 'TEXTDOMAINDIR': '/usr/share/locale/', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'JETSON_VULKAN_INFO': '1.2.70', 'QT_IM_MODULE': 'ibus', 'LC_ALL': 'en_US.UTF-8', 'JETSON_CUDA_ARCH_BIN': '5.3', 'PWD': '/home/agilex/control_ws/build/calcul_position', 'CLUTTER_IM_MODULE': 'xim', 'XDG_DATA_DIRS': '/usr/share/unity:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-unity:/etc/xdg', 'LC_NUMERIC': 'en_US.UTF-8', 'PYTHONPATH': '/home/agilex/control_ws/build/calcul_position/prefix_override:/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages:/home/agilex/agilex_ws/devel/lib/python2.7/dist-packages:/home/agilex/nav2_ws/install/nav_2d_msgs/lib/python3.6/site-packages:/home/agilex/nav2_ws/install/nav2_common/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages', 'JETSON_VPI': 'ii libnvvpi1 1.1.12 arm64 NVIDIA Vision Programming Interface library', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'JETSON_JETPACK': '4.6', 'VTE_VERSION': '5202', 'CMAKE_PREFIX_PATH': '/home/agilex/control_ws/install/interfaces:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common'}, 'shell': False}
+[4.741154] (-) TimerEvent: {}
+[4.842142] (-) TimerEvent: {}
+[4.942928] (-) TimerEvent: {}
+[5.043844] (-) TimerEvent: {}
+[5.144567] (-) TimerEvent: {}
+[5.245297] (-) TimerEvent: {}
+[5.346067] (-) TimerEvent: {}
+[5.446868] (-) TimerEvent: {}
+[5.547539] (-) TimerEvent: {}
+[5.648244] (-) TimerEvent: {}
+[5.748961] (-) TimerEvent: {}
+[5.849743] (-) TimerEvent: {}
+[5.950533] (-) TimerEvent: {}
+[6.053268] (-) TimerEvent: {}
+[6.153953] (-) TimerEvent: {}
+[6.236572] (calcul_position) StderrLine: {'line': b"/home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[6.237517] (calcul_position) StderrLine: {'line': b'  % (opt, underscore_opt)\n'}
+[6.254158] (-) TimerEvent: {}
+[6.355245] (-) TimerEvent: {}
+[6.425488] (calcul_position) StdoutLine: {'line': b'running egg_info\n'}
+[6.430507] (calcul_position) StdoutLine: {'line': b'writing ../../build/calcul_position/calcul_position.egg-info/PKG-INFO\n'}
+[6.432882] (calcul_position) StdoutLine: {'line': b'writing dependency_links to ../../build/calcul_position/calcul_position.egg-info/dependency_links.txt\n'}
+[6.433887] (calcul_position) StdoutLine: {'line': b'writing entry points to ../../build/calcul_position/calcul_position.egg-info/entry_points.txt\n'}
+[6.434734] (calcul_position) StdoutLine: {'line': b'writing requirements to ../../build/calcul_position/calcul_position.egg-info/requires.txt\n'}
+[6.435624] (calcul_position) StdoutLine: {'line': b'writing top-level names to ../../build/calcul_position/calcul_position.egg-info/top_level.txt\n'}
+[6.452424] (calcul_position) StdoutLine: {'line': b"reading manifest file '../../build/calcul_position/calcul_position.egg-info/SOURCES.txt'\n"}
+[6.455356] (-) TimerEvent: {}
+[6.458985] (calcul_position) StdoutLine: {'line': b"writing manifest file '../../build/calcul_position/calcul_position.egg-info/SOURCES.txt'\n"}
+[6.459896] (calcul_position) StdoutLine: {'line': b'running build\n'}
+[6.460395] (calcul_position) StdoutLine: {'line': b'running build_py\n'}
+[6.460964] (calcul_position) StdoutLine: {'line': b'copying calcul_position/odom_node.py -> /home/agilex/control_ws/build/calcul_position/build/lib/calcul_position\n'}
+[6.461631] (calcul_position) StdoutLine: {'line': b'running install\n'}
+[6.462289] (calcul_position) StderrLine: {'line': b'/home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.462887] (calcul_position) StderrLine: {'line': b'  setuptools.SetuptoolsDeprecationWarning,\n'}
+[6.463973] (calcul_position) StdoutLine: {'line': b'running install_lib\n'}
+[6.467273] (calcul_position) StdoutLine: {'line': b'copying /home/agilex/control_ws/build/calcul_position/build/lib/calcul_position/odom_node.py -> /home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages/calcul_position\n'}
+[6.469850] (calcul_position) StdoutLine: {'line': b'byte-compiling /home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages/calcul_position/odom_node.py to odom_node.cpython-36.pyc\n'}
+[6.472501] (calcul_position) StdoutLine: {'line': b'running install_data\n'}
+[6.475848] (calcul_position) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.485545] (calcul_position) StdoutLine: {'line': b"removing '/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages/calcul_position-0.0.0-py3.6.egg-info' (and everything under it)\n"}
+[6.488172] (calcul_position) StdoutLine: {'line': b'Copying ../../build/calcul_position/calcul_position.egg-info to /home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages/calcul_position-0.0.0-py3.6.egg-info\n'}
+[6.494959] (calcul_position) StdoutLine: {'line': b'running install_scripts\n'}
+[6.556423] (-) TimerEvent: {}
+[6.582222] (calcul_position) StdoutLine: {'line': b'Installing odom_node script to /home/agilex/control_ws/install/calcul_position/lib/calcul_position\n'}
+[6.585314] (calcul_position) StdoutLine: {'line': b"writing list of installed files to '/home/agilex/control_ws/build/calcul_position/install.log'\n"}
+[6.656619] (-) TimerEvent: {}
+[6.708600] (calcul_position) CommandEnded: {'returncode': 0}
+[6.756779] (-) TimerEvent: {}
+[6.830195] (calcul_position) JobEnded: {'identifier': 'calcul_position', 'rc': 0}
+[6.835583] (-) EventReactorShutdown: {}

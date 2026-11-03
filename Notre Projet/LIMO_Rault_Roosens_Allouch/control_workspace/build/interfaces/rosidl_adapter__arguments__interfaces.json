@@ -1,0 +1,8 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/agilex/control_ws/src/interfaces:msg/Entree.msg",
+    "/home/agilex/control_ws/src/interfaces:msg/Odom.msg",
+    "/home/agilex/control_ws/src/interfaces:msg/Position.msg"
+  ]
+}

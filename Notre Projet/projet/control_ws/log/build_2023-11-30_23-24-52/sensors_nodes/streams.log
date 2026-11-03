@@ -1,0 +1,25 @@
+[7.624s] Invoking command in '/home/agilex/control_ws/src/sensors_nodes': PYTHONPATH=/home/agilex/control_ws/build/sensors_nodes/prefix_override:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_nodes build --build-base /home/agilex/control_ws/build/sensors_nodes/build install --record /home/agilex/control_ws/build/sensors_nodes/install.log --install-scripts $base/lib/sensors_nodes --single-version-externally-managed
+[9.230s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[9.230s]   % (opt, underscore_opt)
+[9.419s] running egg_info
+[9.425s] writing ../../build/sensors_nodes/sensors_nodes.egg-info/PKG-INFO
+[9.426s] writing dependency_links to ../../build/sensors_nodes/sensors_nodes.egg-info/dependency_links.txt
+[9.427s] writing entry points to ../../build/sensors_nodes/sensors_nodes.egg-info/entry_points.txt
+[9.428s] writing requirements to ../../build/sensors_nodes/sensors_nodes.egg-info/requires.txt
+[9.428s] writing top-level names to ../../build/sensors_nodes/sensors_nodes.egg-info/top_level.txt
+[9.445s] reading manifest file '../../build/sensors_nodes/sensors_nodes.egg-info/SOURCES.txt'
+[9.452s] writing manifest file '../../build/sensors_nodes/sensors_nodes.egg-info/SOURCES.txt'
+[9.453s] running build
+[9.454s] running build_py
+[9.454s] running install
+[9.455s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.455s]   setuptools.SetuptoolsDeprecationWarning,
+[9.456s] running install_lib
+[9.462s] running install_data
+[9.464s] running install_egg_info
+[9.472s] removing '/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages/sensors_nodes-0.0.0-py3.6.egg-info' (and everything under it)
+[9.473s] Copying ../../build/sensors_nodes/sensors_nodes.egg-info to /home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages/sensors_nodes-0.0.0-py3.6.egg-info
+[9.479s] running install_scripts
+[9.573s] Installing imu_node script to /home/agilex/control_ws/install/sensors_nodes/lib/sensors_nodes
+[9.575s] writing list of installed files to '/home/agilex/control_ws/build/sensors_nodes/install.log'
+[9.776s] Invoked command in '/home/agilex/control_ws/src/sensors_nodes' returned '0': PYTHONPATH=/home/agilex/control_ws/build/sensors_nodes/prefix_override:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_nodes build --build-base /home/agilex/control_ws/build/sensors_nodes/build install --record /home/agilex/control_ws/build/sensors_nodes/install.log --install-scripts $base/lib/sensors_nodes --single-version-externally-managed

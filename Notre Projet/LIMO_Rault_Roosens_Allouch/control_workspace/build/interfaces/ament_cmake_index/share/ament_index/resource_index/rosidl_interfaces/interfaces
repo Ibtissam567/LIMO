@@ -1,0 +1,6 @@
+msg/Entree.idl
+msg/Entree.msg
+msg/Odom.idl
+msg/Odom.msg
+msg/Position.idl
+msg/Position.msg

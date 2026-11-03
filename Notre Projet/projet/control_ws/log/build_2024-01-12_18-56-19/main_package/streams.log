@@ -1,0 +1,24 @@
+[7.148s] Invoking command in '/home/agilex/control_ws/src/main_package': PYTHONPATH=/home/agilex/control_ws/build/main_package/prefix_override:/home/agilex/control_ws/install/main_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/agilex/control_ws/build/main_package/build install --record /home/agilex/control_ws/build/main_package/install.log --install-scripts $base/lib/main_package --single-version-externally-managed
+[8.935s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[8.936s]   % (opt, underscore_opt)
+[9.165s] running egg_info
+[9.169s] writing ../../build/main_package/main_package.egg-info/PKG-INFO
+[9.170s] writing dependency_links to ../../build/main_package/main_package.egg-info/dependency_links.txt
+[9.171s] writing entry points to ../../build/main_package/main_package.egg-info/entry_points.txt
+[9.172s] writing requirements to ../../build/main_package/main_package.egg-info/requires.txt
+[9.173s] writing top-level names to ../../build/main_package/main_package.egg-info/top_level.txt
+[9.197s] reading manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[9.207s] writing manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[9.209s] running build
+[9.210s] running build_py
+[9.211s] running install
+[9.212s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.212s]   setuptools.SetuptoolsDeprecationWarning,
+[9.214s] running install_lib
+[9.222s] running install_data
+[9.225s] running install_egg_info
+[9.235s] removing '/home/agilex/control_ws/install/main_package/lib/python3.6/site-packages/main_package-0.0.0-py3.6.egg-info' (and everything under it)
+[9.237s] Copying ../../build/main_package/main_package.egg-info to /home/agilex/control_ws/install/main_package/lib/python3.6/site-packages/main_package-0.0.0-py3.6.egg-info
+[9.242s] running install_scripts
+[9.348s] writing list of installed files to '/home/agilex/control_ws/build/main_package/install.log'
+[9.487s] Invoked command in '/home/agilex/control_ws/src/main_package' returned '0': PYTHONPATH=/home/agilex/control_ws/build/main_package/prefix_override:/home/agilex/control_ws/install/main_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/agilex/control_ws/build/main_package/build install --record /home/agilex/control_ws/build/main_package/install.log --install-scripts $base/lib/main_package --single-version-externally-managed

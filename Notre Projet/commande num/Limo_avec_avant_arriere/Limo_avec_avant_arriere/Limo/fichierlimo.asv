@@ -1,0 +1,14 @@
+k_rho = 1; %positif
+k_alpha =20 ; %k_alpha > k_rho
+k_beta = -10 ;% negatif
+L = 322e-3; %322mm
+
+%choisir une position initiale
+x0 = 0.5;
+y0 = 2; 
+theta0 = 0;
+
+%choisir une position finale
+x_star = 0.5;
+y_star = 2;
+theta_star = 0;

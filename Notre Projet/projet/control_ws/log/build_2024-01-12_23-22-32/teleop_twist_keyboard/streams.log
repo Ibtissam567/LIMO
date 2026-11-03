@@ -1,0 +1,24 @@
+[7.182s] Invoking command in '/home/agilex/control_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/agilex/control_ws/build/teleop_twist_keyboard/prefix_override:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/agilex/control_ws/build/teleop_twist_keyboard/build install --record /home/agilex/control_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[9.179s] running egg_info
+[9.185s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[9.189s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[9.192s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[9.195s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[9.197s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[9.219s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[9.223s] adding license file 'LICENSE'
+[9.232s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[9.234s] running build
+[9.236s] running build_py
+[9.238s] running install
+[9.241s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.242s]   setuptools.SetuptoolsDeprecationWarning,
+[9.246s] running install_lib
+[9.261s] running install_data
+[9.262s] running install_egg_info
+[9.266s] removing '/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages/teleop_twist_keyboard-2.3.2-py3.6.egg-info' (and everything under it)
+[9.276s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages/teleop_twist_keyboard-2.3.2-py3.6.egg-info
+[9.278s] running install_scripts
+[9.382s] Installing teleop_twist_keyboard script to /home/agilex/control_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[9.388s] writing list of installed files to '/home/agilex/control_ws/build/teleop_twist_keyboard/install.log'
+[9.517s] Invoked command in '/home/agilex/control_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/agilex/control_ws/build/teleop_twist_keyboard/prefix_override:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/agilex/control_ws/build/teleop_twist_keyboard/build install --record /home/agilex/control_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed

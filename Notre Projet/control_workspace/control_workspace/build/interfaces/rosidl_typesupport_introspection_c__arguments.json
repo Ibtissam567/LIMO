@@ -1,0 +1,23 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/agilex/control_ws/build/interfaces/rosidl_typesupport_introspection_c/interfaces",
+  "template_dir": "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces:msg/Entree.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces:msg/Odom.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces:msg/Position.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/eloquent/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/eloquent/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces/msg/Entree.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces/msg/Odom.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces/msg/Position.idl"
+  ]
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+commande = commande_pck.commande:main
+

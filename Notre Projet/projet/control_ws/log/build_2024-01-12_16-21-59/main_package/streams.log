@@ -1,0 +1,37 @@
+[4.538s] Invoking command in '/home/agilex/control_ws/src/main_package': PYTHONPATH=/home/agilex/control_ws/build/main_package/prefix_override:/home/agilex/control_ws/install/main_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/agilex/control_ws/build/main_package/build install --record /home/agilex/control_ws/build/main_package/install.log --install-scripts $base/lib/main_package --single-version-externally-managed
+[6.043s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.043s]   % (opt, underscore_opt)
+[6.228s] running egg_info
+[6.232s] creating ../../build/main_package/main_package.egg-info
+[6.233s] writing ../../build/main_package/main_package.egg-info/PKG-INFO
+[6.234s] writing dependency_links to ../../build/main_package/main_package.egg-info/dependency_links.txt
+[6.234s] writing entry points to ../../build/main_package/main_package.egg-info/entry_points.txt
+[6.235s] writing requirements to ../../build/main_package/main_package.egg-info/requires.txt
+[6.235s] writing top-level names to ../../build/main_package/main_package.egg-info/top_level.txt
+[6.242s] writing manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[6.250s] reading manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[6.257s] writing manifest file '../../build/main_package/main_package.egg-info/SOURCES.txt'
+[6.257s] running build
+[6.258s] running build_py
+[6.258s] creating /home/agilex/control_ws/build/main_package/build
+[6.259s] creating /home/agilex/control_ws/build/main_package/build/lib
+[6.259s] creating /home/agilex/control_ws/build/main_package/build/lib/main_package
+[6.260s] copying main_package/__init__.py -> /home/agilex/control_ws/build/main_package/build/lib/main_package
+[6.260s] running install
+[6.261s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[6.261s]   setuptools.SetuptoolsDeprecationWarning,
+[6.262s] running install_lib
+[6.263s] creating /home/agilex/control_ws/install/main_package/lib/python3.6/site-packages/main_package
+[6.263s] copying /home/agilex/control_ws/build/main_package/build/lib/main_package/__init__.py -> /home/agilex/control_ws/install/main_package/lib/python3.6/site-packages/main_package
+[6.265s] byte-compiling /home/agilex/control_ws/install/main_package/lib/python3.6/site-packages/main_package/__init__.py to __init__.cpython-36.pyc
+[6.266s] running install_data
+[6.268s] creating /home/agilex/control_ws/install/main_package/share/ament_index
+[6.269s] creating /home/agilex/control_ws/install/main_package/share/ament_index/resource_index
+[6.269s] creating /home/agilex/control_ws/install/main_package/share/ament_index/resource_index/packages
+[6.270s] copying resource/main_package -> /home/agilex/control_ws/install/main_package/share/ament_index/resource_index/packages
+[6.270s] copying package.xml -> /home/agilex/control_ws/install/main_package/share/main_package
+[6.271s] running install_egg_info
+[6.277s] Copying ../../build/main_package/main_package.egg-info to /home/agilex/control_ws/install/main_package/lib/python3.6/site-packages/main_package-0.0.0-py3.6.egg-info
+[6.282s] running install_scripts
+[6.374s] writing list of installed files to '/home/agilex/control_ws/build/main_package/install.log'
+[6.495s] Invoked command in '/home/agilex/control_ws/src/main_package' returned '0': PYTHONPATH=/home/agilex/control_ws/build/main_package/prefix_override:/home/agilex/control_ws/install/main_package/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/main_package build --build-base /home/agilex/control_ws/build/main_package/build install --record /home/agilex/control_ws/build/main_package/install.log --install-scripts $base/lib/main_package --single-version-externally-managed

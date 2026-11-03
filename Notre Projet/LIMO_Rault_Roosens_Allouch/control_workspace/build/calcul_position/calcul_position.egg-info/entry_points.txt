@@ -1,0 +1,3 @@
+[console_scripts]
+odom_node = calcul_position.odom_node:main
+

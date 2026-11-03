@@ -1,0 +1,41 @@
+[9.787s] Invoking command in '/home/agilex/control_ws/src/commande_pck': PYTHONPATH=/home/agilex/control_ws/build/commande_pck/prefix_override:/home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/commande_pck build --build-base /home/agilex/control_ws/build/commande_pck/build install --record /home/agilex/control_ws/build/commande_pck/install.log --install-scripts $base/lib/commande_pck --single-version-externally-managed
+[11.903s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/dist.py:726: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[11.904s]   % (opt, underscore_opt)
+[12.236s] running egg_info
+[12.242s] creating ../../build/commande_pck/commande_pck.egg-info
+[12.244s] writing ../../build/commande_pck/commande_pck.egg-info/PKG-INFO
+[12.245s] writing dependency_links to ../../build/commande_pck/commande_pck.egg-info/dependency_links.txt
+[12.246s] writing entry points to ../../build/commande_pck/commande_pck.egg-info/entry_points.txt
+[12.247s] writing requirements to ../../build/commande_pck/commande_pck.egg-info/requires.txt
+[12.248s] writing top-level names to ../../build/commande_pck/commande_pck.egg-info/top_level.txt
+[12.258s] writing manifest file '../../build/commande_pck/commande_pck.egg-info/SOURCES.txt'
+[12.275s] reading manifest file '../../build/commande_pck/commande_pck.egg-info/SOURCES.txt'
+[12.281s] writing manifest file '../../build/commande_pck/commande_pck.egg-info/SOURCES.txt'
+[12.284s] running build
+[12.289s] running build_py
+[12.291s] creating /home/agilex/control_ws/build/commande_pck/build
+[12.292s] creating /home/agilex/control_ws/build/commande_pck/build/lib
+[12.292s] creating /home/agilex/control_ws/build/commande_pck/build/lib/commande_pck
+[12.294s] copying commande_pck/__init__.py -> /home/agilex/control_ws/build/commande_pck/build/lib/commande_pck
+[12.296s] copying commande_pck/commande.py -> /home/agilex/control_ws/build/commande_pck/build/lib/commande_pck
+[12.296s] running install
+[12.297s] /home/agilex/.local/lib/python3.6/site-packages/setuptools/command/install.py:37: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[12.298s]   setuptools.SetuptoolsDeprecationWarning,
+[12.298s] running install_lib
+[12.299s] creating /home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages/commande_pck
+[12.300s] copying /home/agilex/control_ws/build/commande_pck/build/lib/commande_pck/__init__.py -> /home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages/commande_pck
+[12.300s] copying /home/agilex/control_ws/build/commande_pck/build/lib/commande_pck/commande.py -> /home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages/commande_pck
+[12.301s] byte-compiling /home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages/commande_pck/__init__.py to __init__.cpython-36.pyc
+[12.301s] byte-compiling /home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages/commande_pck/commande.py to commande.cpython-36.pyc
+[12.302s] running install_data
+[12.302s] creating /home/agilex/control_ws/install/commande_pck/share/ament_index
+[12.324s] creating /home/agilex/control_ws/install/commande_pck/share/ament_index/resource_index
+[12.325s] creating /home/agilex/control_ws/install/commande_pck/share/ament_index/resource_index/packages
+[12.325s] copying resource/commande_pck -> /home/agilex/control_ws/install/commande_pck/share/ament_index/resource_index/packages
+[12.326s] copying package.xml -> /home/agilex/control_ws/install/commande_pck/share/commande_pck
+[12.327s] running install_egg_info
+[12.327s] Copying ../../build/commande_pck/commande_pck.egg-info to /home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages/commande_pck-0.0.0-py3.6.egg-info
+[12.328s] running install_scripts
+[12.501s] Installing commande script to /home/agilex/control_ws/install/commande_pck/lib/commande_pck
+[12.502s] writing list of installed files to '/home/agilex/control_ws/build/commande_pck/install.log'
+[14.513s] Invoked command in '/home/agilex/control_ws/src/commande_pck' returned '0': PYTHONPATH=/home/agilex/control_ws/build/commande_pck/prefix_override:/home/agilex/control_ws/install/commande_pck/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/commande_pck build --build-base /home/agilex/control_ws/build/commande_pck/build install --record /home/agilex/control_ws/build/commande_pck/install.log --install-scripts $base/lib/commande_pck --single-version-externally-managed

@@ -1,0 +1,93 @@
+ROs 2 has some example packages 
+ros 2 run "name of the package"
+package is how ros is orgonized
+example demo_node 
+rqt graph reprensentation of all the node 
+a node is any programm that has access to ros 
+hardware 
+---how to set up a ros workspace
+https://www.youtube.com/watch?v=3GbrKQ7G2P0&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&index=3
+
+a Ros 2 workspace 
+organize packages
+sudo apt update
+sudo apt install python3-colcon-common-extension
+cd /usr/colcon_argcomplete/hook/
+gedit~/.bashrc #to open the bash file and to modify it 
+at the end of the file you should add a line with the path 
+cd /usr/colcon_argcomplete/hook/
+source~/.bashrc
+mkdir ros2agx ( name of our workspace)
+mkdir src ( source folder)
+here is where we are going to create our nodes
+staying in the workspace and not in the src folder
+colcon build
+we need to modify 
+source ~/
+How to create a package 
+ros2 pkg create my_robot_controller
+(here you chose the functionnality )
+specify if it is a python or c++
+
+ros2 pk  g create my_robot_controller --build-type ament-python-- dependencies rclpy (ros python librarie)
+sudo snap install code -- classic
+
+code .
+in Vs code everithinf
+package xml 
+is in any ros package 
+in dependacy line
+my robot contrller 
+init folder 
+here is where we are going to code 
+colcon build 
+How to create a node
+we go to the right folder where the init files is 
+touch my_first_node.py
+to create 
+chmode+x my_first_node.py
+code . ( to open visual studio)
+interperter files 
+#!/usr/bin/env python3
+import rclpy
+download ros extension microsoft 
+python is install directly
+restart visual
+create the main function
+class Mynode(Node):
+	def __init__(self)*
+		super().__init__("first node")
+self.get_logger().info("hELLO FROM ROs 2)
+
+def Main(args=None):
+	rclpy.init(args=args)#initianilizing
+	 #the node is created here let do one 
+	 #we need to use class oriented code
+	node=MyNode()
+	rclpy.spin(node)#this prevent the code to swich off 
+	  
+	rclpy.shutdown()
+
+if __name__=='__main__':
+main()
+
+
+
+Back to the terminal
+ 
+My_firstnode.py
+this initia
+how to install the node
+go to setup.py
+console script
+create an executable 
+"test_node=my_robot_controller.my_first_node:main"
+colcon build 
+source the workspace
+source~/.bashrc
+my robot controller 
+ 
+
+
+
+ 

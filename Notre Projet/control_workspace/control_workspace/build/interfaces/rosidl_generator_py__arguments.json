@@ -1,0 +1,28 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/home/agilex/control_ws/build/interfaces/rosidl_generator_py/interfaces",
+  "template_dir": "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces:msg/Entree.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces:msg/Odom.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces:msg/Position.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/eloquent/lib/python3.6/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/eloquent/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces/msg/Entree.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces/msg/Odom.idl",
+    "/home/agilex/control_ws/build/interfaces/rosidl_adapter/interfaces/msg/Position.idl"
+  ]
+}

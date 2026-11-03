@@ -1,0 +1,29 @@
+[0.000000] (-) TimerEvent: {}
+[0.001519] (-) JobUnselected: {'identifier': 'calcul_position'}
+[0.002001] (-) JobUnselected: {'identifier': 'commande_pck'}
+[0.003837] (-) JobUnselected: {'identifier': 'controller'}
+[0.006470] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.006717] (-) JobUnselected: {'identifier': 'sensors_nodes'}
+[0.007060] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.007323] (main_package) JobQueued: {'identifier': 'main_package', 'dependencies': OrderedDict()}
+[0.007505] (main_package) JobStarted: {'identifier': 'main_package'}
+[0.098944] (-) TimerEvent: {}
+[0.200193] (-) TimerEvent: {}
+[0.301272] (-) TimerEvent: {}
+[0.401985] (-) TimerEvent: {}
+[0.502659] (-) TimerEvent: {}
+[0.603337] (-) TimerEvent: {}
+[0.704080] (-) TimerEvent: {}
+[0.804845] (-) TimerEvent: {}
+[0.906179] (-) TimerEvent: {}
+[1.007838] (-) TimerEvent: {}
+[1.108550] (-) TimerEvent: {}
+[1.209332] (-) TimerEvent: {}
+[1.310095] (-) TimerEvent: {}
+[1.410915] (-) TimerEvent: {}
+[1.514196] (-) TimerEvent: {}
+[1.615797] (-) TimerEvent: {}
+[1.716697] (-) TimerEvent: {}
+[1.784859] (main_package) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 58, in getter\n    desc.path / \'setup.py\', env=env)\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 242, in get_setup_information\n    setup_py, env=env)\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 290, in _get_setup_information\n    cwd=os.path.abspath(str(setup_py.parent)), check=True, env=env)\n  File "/usr/lib/python3.6/subprocess.py", line 438, in run\n    output=stdout, stderr=stderr)\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[1.787266] (main_package) JobEnded: {'identifier': 'main_package', 'rc': 1}
+[1.802481] (-) EventReactorShutdown: {}

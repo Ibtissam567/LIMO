@@ -1,0 +1,331 @@
+[2.137s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[2.137s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faa08deb8>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faa08deb8>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fa9f3d5c0>)
+[2.239s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.241s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.242s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/control_ws'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.647s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.648s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.649s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.649s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.650s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.651s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.652s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.653s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.654s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.655s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.656s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.657s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[2.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[2.672s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_python' and name 'controller'
+[2.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[2.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[2.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[2.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[2.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[2.678s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['ignore', 'ignore_ament_install']
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'ignore'
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'ignore_ament_install'
+[2.679s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['colcon_pkg']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'colcon_pkg'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['colcon_meta']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'colcon_meta'
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['ros']
+[2.680s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'ros'
+[2.683s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors_nodes' with type 'ros.ament_python' and name 'sensors_nodes'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore_ament_install'
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_pkg']
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_pkg'
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_meta']
+[2.685s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_meta'
+[2.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ros']
+[2.686s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ros'
+[2.689s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[2.689s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.690s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.798s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.799s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.811s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/agilex/control_ws/install
+[2.815s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/agilex/nav2_ws/install
+[2.825s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/eloquent
+[2.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.285s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'teleop_twist_keyboard' is in: /home/agilex/control_ws/install/teleop_twist_keyboard, /opt/ros/eloquent
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding teleop_twist_keyboard
+
+This may be promoted to an error in a future release of colcon-override-check.
+[3.288s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[3.289s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[3.289s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.289s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[3.289s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[3.290s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[3.290s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[3.290s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[3.290s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.290s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/control_ws/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/control_ws/install/controller', 'merge_install': False, 'path': '/home/agilex/control_ws/src/controller', 'symlink_install': False, 'test_result_base': None}
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[3.293s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[3.294s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[3.295s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.295s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/control_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/control_ws/install/interfaces', 'merge_install': False, 'path': '/home/agilex/control_ws/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[3.298s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'cmake_args' from command line to 'None'
+[3.298s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'cmake_target' from command line to 'None'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[3.299s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[3.300s] Level 5:colcon.colcon_core.verb:set package 'sensors_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.300s] DEBUG:colcon.colcon_core.verb:Building package 'sensors_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/control_ws/build/sensors_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/control_ws/install/sensors_nodes', 'merge_install': False, 'path': '/home/agilex/control_ws/src/sensors_nodes', 'symlink_install': False, 'test_result_base': None}
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_args' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target' from command line to 'None'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.304s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_cache' from command line to 'False'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_clean_first' from command line to 'False'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'cmake_force_configure' from command line to 'False'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'ament_cmake_args' from command line to 'None'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_cmake_args' from command line to 'None'
+[3.305s] Level 5:colcon.colcon_core.verb:set package 'teleop_twist_keyboard' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.306s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_twist_keyboard' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/control_ws/build/teleop_twist_keyboard', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/control_ws/install/teleop_twist_keyboard', 'merge_install': False, 'path': '/home/agilex/control_ws/src/teleop_twist_keyboard', 'symlink_install': False, 'test_result_base': None}
+[3.308s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.312s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.314s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/control_ws/src/controller' with build type 'ament_python'
+[3.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'ament_prefix_path')
+[3.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/controller/share/controller/hook/ament_prefix_path.ps1'
+[3.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/controller/share/controller/hook/ament_prefix_path.dsv'
+[3.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/controller/share/controller/hook/ament_prefix_path.sh'
+[3.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.365s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[3.366s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[3.379s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/agilex/control_ws/src/interfaces' with build type 'ament_cmake'
+[3.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/agilex/control_ws/src/interfaces'
+[3.384s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.384s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.409s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[3.413s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[3.424s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/control_ws/src/sensors_nodes' with build type 'ament_python'
+[3.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_nodes', 'ament_prefix_path')
+[3.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/hook/ament_prefix_path.ps1'
+[3.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/hook/ament_prefix_path.dsv'
+[3.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/hook/ament_prefix_path.sh'
+[3.439s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.439s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.466s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[3.468s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[3.482s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/control_ws/src/teleop_twist_keyboard' with build type 'ament_python'
+[3.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'ament_prefix_path')
+[3.487s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.ps1'
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.dsv'
+[3.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/ament_prefix_path.sh'
+[3.497s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.497s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.528s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[3.530s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[5.428s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/control_ws/src/controller'
+[5.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.460s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[5.463s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[5.493s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/control_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --build /home/agilex/control_ws/build/interfaces -- -j4 -l4
+[7.456s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/control_ws/src/sensors_nodes'
+[7.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.459s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.487s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[7.489s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[9.396s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/control_ws/src/teleop_twist_keyboard'
+[9.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.424s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[9.426s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[9.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/control_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --build /home/agilex/control_ws/build/interfaces -- -j4 -l4
+[10.650s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/control_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --install /home/agilex/control_ws/build/interfaces
+[11.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[11.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/control_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/interfaces:/home/agilex/control_ws/install/teleop_twist_keyboard:/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:/home/agilex/catkin_ws/devel:/home/agilex/agilex_ws/devel:/home/agilex/nav2_ws/install/nav_2d_msgs:/home/agilex/nav2_ws/install/nav2_common /home/agilex/.local/bin/cmake --install /home/agilex/control_ws/build/interfaces
+[11.411s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces' for CMake module files
+[11.415s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces' for CMake config files
+[11.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[11.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[11.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[11.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[11.432s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/lib'
+[11.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[11.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[11.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[11.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[11.525s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/bin'
+[11.525s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[11.526s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages'
+[11.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[11.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[11.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[11.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[11.535s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/bin'
+[11.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.ps1'
+[11.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/package.dsv'
+[11.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.sh'
+[11.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.bash'
+[11.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.zsh'
+[11.566s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/control_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[12.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[12.376s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces' for CMake module files
+[12.381s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces' for CMake config files
+[12.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[12.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[12.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[12.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[12.405s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/lib'
+[12.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[12.408s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[12.410s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[12.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[12.414s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/bin'
+[12.415s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[12.416s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/lib/python3.6/site-packages'
+[12.417s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'pythonpath')
+[12.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/pythonpath.ps1'
+[12.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/pythonpath.dsv'
+[12.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/interfaces/share/interfaces/hook/pythonpath.sh'
+[12.426s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/interfaces/bin'
+[12.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.ps1'
+[12.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/control_ws/install/interfaces/share/interfaces/package.dsv'
+[12.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.sh'
+[12.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.bash'
+[12.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/interfaces/share/interfaces/package.zsh'
+[12.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/control_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[12.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/control_ws/src/controller': PYTHONPATH=/home/agilex/control_ws/build/controller/prefix_override:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/agilex/control_ws/build/controller/build install --record /home/agilex/control_ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed
+[13.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/control_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/agilex/control_ws/build/teleop_twist_keyboard/prefix_override:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/agilex/control_ws/build/teleop_twist_keyboard/build install --record /home/agilex/control_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[13.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/control_ws/src/sensors_nodes': PYTHONPATH=/home/agilex/control_ws/build/sensors_nodes/prefix_override:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_nodes build --build-base /home/agilex/control_ws/build/sensors_nodes/build install --record /home/agilex/control_ws/build/sensors_nodes/install.log --install-scripts $base/lib/sensors_nodes --single-version-externally-managed
+[15.188s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/teleop_twist_keyboard' for CMake module files
+[15.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/control_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/agilex/control_ws/build/teleop_twist_keyboard/prefix_override:/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/agilex/control_ws/build/teleop_twist_keyboard/build install --record /home/agilex/control_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed
+[15.194s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/teleop_twist_keyboard' for CMake config files
+[15.199s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/teleop_twist_keyboard/lib'
+[15.199s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/teleop_twist_keyboard/bin'
+[15.200s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/teleop_twist_keyboard/lib/pkgconfig/teleop_twist_keyboard.pc'
+[15.201s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/teleop_twist_keyboard/lib/python3.6/site-packages'
+[15.202s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_twist_keyboard', 'pythonpath')
+[15.204s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.ps1'
+[15.206s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.dsv'
+[15.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/hook/pythonpath.sh'
+[15.210s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/teleop_twist_keyboard/bin'
+[15.211s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_twist_keyboard)
+[15.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.ps1'
+[15.216s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.dsv'
+[15.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.sh'
+[15.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.bash'
+[15.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard/package.zsh'
+[15.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/control_ws/install/teleop_twist_keyboard/share/colcon-core/packages/teleop_twist_keyboard)
+[15.229s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/sensors_nodes' for CMake module files
+[15.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/control_ws/src/sensors_nodes' returned '0': PYTHONPATH=/home/agilex/control_ws/build/sensors_nodes/prefix_override:/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/sensors_nodes build --build-base /home/agilex/control_ws/build/sensors_nodes/build install --record /home/agilex/control_ws/build/sensors_nodes/install.log --install-scripts $base/lib/sensors_nodes --single-version-externally-managed
+[15.238s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/sensors_nodes' for CMake config files
+[15.242s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/sensors_nodes/lib'
+[15.242s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/sensors_nodes/bin'
+[15.243s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/sensors_nodes/lib/pkgconfig/sensors_nodes.pc'
+[15.243s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/sensors_nodes/lib/python3.6/site-packages'
+[15.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors_nodes', 'pythonpath')
+[15.246s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/hook/pythonpath.ps1'
+[15.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/hook/pythonpath.dsv'
+[15.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/hook/pythonpath.sh'
+[15.252s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/sensors_nodes/bin'
+[15.253s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors_nodes)
+[15.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/package.ps1'
+[15.258s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/package.dsv'
+[15.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/package.sh'
+[15.263s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/package.bash'
+[15.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/sensors_nodes/share/sensors_nodes/package.zsh'
+[15.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/control_ws/install/sensors_nodes/share/colcon-core/packages/sensors_nodes)
+[15.271s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/controller' for CMake module files
+[15.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/control_ws/src/controller' returned '0': PYTHONPATH=/home/agilex/control_ws/build/controller/prefix_override:/home/agilex/control_ws/install/controller/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller build --build-base /home/agilex/control_ws/build/controller/build install --record /home/agilex/control_ws/build/controller/install.log --install-scripts $base/lib/controller --single-version-externally-managed
+[15.281s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/controller' for CMake config files
+[15.285s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/controller/lib'
+[15.285s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/controller/bin'
+[15.286s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/controller/lib/pkgconfig/controller.pc'
+[15.287s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/controller/lib/python3.6/site-packages'
+[15.287s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'pythonpath')
+[15.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/controller/share/controller/hook/pythonpath.ps1'
+[15.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/controller/share/controller/hook/pythonpath.dsv'
+[15.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/controller/share/controller/hook/pythonpath.sh'
+[15.296s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/controller/bin'
+[15.297s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[15.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/controller/share/controller/package.ps1'
+[15.302s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/control_ws/install/controller/share/controller/package.dsv'
+[15.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/controller/share/controller/package.sh'
+[15.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/controller/share/controller/package.bash'
+[15.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/controller/share/controller/package.zsh'
+[15.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/control_ws/install/controller/share/colcon-core/packages/controller)
+[15.313s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.317s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.317s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.370s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.370s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.499s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.ps1'
+[15.509s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/control_ws/install/_local_setup_util_ps1.py'
+[15.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.ps1'
+[15.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.sh'
+[15.541s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/control_ws/install/_local_setup_util_sh.py'
+[15.544s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.sh'
+[15.554s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.bash'
+[15.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.bash'
+[15.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.zsh'
+[15.570s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.zsh'

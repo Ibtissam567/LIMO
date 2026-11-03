@@ -1,0 +1,176 @@
+[2.238s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'calcul_position']
+[2.239s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8039a1d0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['calcul_position'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8039a1d0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f80233898>)
+[2.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.347s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.347s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/agilex/control_ws'
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.350s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.766s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.767s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.768s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.769s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.770s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.771s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.772s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.773s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.774s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.775s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extensions ['ignore', 'ignore_ament_install']
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extension 'ignore'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extension 'ignore_ament_install'
+[2.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extensions ['colcon_pkg']
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extension 'colcon_pkg'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extensions ['colcon_meta']
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extension 'colcon_meta'
+[2.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extensions ['ros']
+[2.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/calcul_position) by extension 'ros'
+[2.789s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calcul_position' with type 'ros.ament_python' and name 'calcul_position'
+[2.789s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ignore', 'ignore_ament_install']
+[2.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore'
+[2.790s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ignore_ament_install'
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_pkg']
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_pkg'
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['colcon_meta']
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'colcon_meta'
+[2.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extensions ['ros']
+[2.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller) by extension 'ros'
+[2.794s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller' with type 'ros.ament_python' and name 'controller'
+[2.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[2.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[2.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['ignore', 'ignore_ament_install']
+[2.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'ignore'
+[2.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'ignore_ament_install'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['colcon_pkg']
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'colcon_pkg'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['colcon_meta']
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'colcon_meta'
+[2.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extensions ['ros']
+[2.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/sensors_nodes) by extension 'ros'
+[2.805s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sensors_nodes' with type 'ros.ament_python' and name 'sensors_nodes'
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ignore', 'ignore_ament_install']
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore'
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ignore_ament_install'
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_pkg']
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_pkg'
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['colcon_meta']
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'colcon_meta'
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extensions ['ros']
+[2.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_twist_keyboard) by extension 'ros'
+[2.811s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_twist_keyboard' with type 'ros.ament_python' and name 'teleop_twist_keyboard'
+[2.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.814s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.922s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'controller' in 'src/controller'
+[2.922s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'interfaces' in 'src/interfaces'
+[2.922s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensors_nodes' in 'src/sensors_nodes'
+[2.923s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teleop_twist_keyboard' in 'src/teleop_twist_keyboard'
+[2.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.926s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.941s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/agilex/control_ws/install
+[2.945s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/agilex/nav2_ws/install
+[2.955s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/eloquent
+[2.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.428s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'cmake_args' from command line to 'None'
+[3.428s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'cmake_target' from command line to 'None'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'cmake_clean_cache' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'cmake_clean_first' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'cmake_force_configure' from command line to 'False'
+[3.429s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'ament_cmake_args' from command line to 'None'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'catkin_cmake_args' from command line to 'None'
+[3.430s] Level 5:colcon.colcon_core.verb:set package 'calcul_position' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.430s] DEBUG:colcon.colcon_core.verb:Building package 'calcul_position' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/agilex/control_ws/build/calcul_position', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/agilex/control_ws/install/calcul_position', 'merge_install': False, 'path': '/home/agilex/control_ws/src/calcul_position', 'symlink_install': False, 'test_result_base': None}
+[3.432s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.437s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.438s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/agilex/control_ws/src/calcul_position' with build type 'ament_python'
+[3.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('calcul_position', 'ament_prefix_path')
+[3.450s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/calcul_position/share/calcul_position/hook/ament_prefix_path.ps1'
+[3.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/calcul_position/share/calcul_position/hook/ament_prefix_path.dsv'
+[3.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/calcul_position/share/calcul_position/hook/ament_prefix_path.sh'
+[3.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.491s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[3.493s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[5.422s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/agilex/control_ws/src/calcul_position'
+[5.425s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.425s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.453s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/catkin_ws/devel'
+[5.455s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/home/agilex/agilex_ws/devel'
+[8.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/agilex/control_ws/src/calcul_position': PYTHONPATH=/home/agilex/control_ws/build/calcul_position/prefix_override:/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calcul_position build --build-base /home/agilex/control_ws/build/calcul_position/build install --record /home/agilex/control_ws/build/calcul_position/install.log --install-scripts $base/lib/calcul_position --single-version-externally-managed
+[10.118s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/agilex/control_ws/src/calcul_position' returned '0': PYTHONPATH=/home/agilex/control_ws/build/calcul_position/prefix_override:/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/calcul_position build --build-base /home/agilex/control_ws/build/calcul_position/build install --record /home/agilex/control_ws/build/calcul_position/install.log --install-scripts $base/lib/calcul_position --single-version-externally-managed
+[10.134s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/calcul_position' for CMake module files
+[10.137s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/calcul_position' for CMake config files
+[10.142s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/calcul_position/lib'
+[10.143s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/calcul_position/bin'
+[10.143s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/calcul_position/lib/pkgconfig/calcul_position.pc'
+[10.144s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/calcul_position/lib/python3.6/site-packages'
+[10.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('calcul_position', 'pythonpath')
+[10.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/calcul_position/share/calcul_position/hook/pythonpath.ps1'
+[10.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/agilex/control_ws/install/calcul_position/share/calcul_position/hook/pythonpath.dsv'
+[10.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/agilex/control_ws/install/calcul_position/share/calcul_position/hook/pythonpath.sh'
+[10.155s] Level 1:colcon.colcon_core.environment:checking '/home/agilex/control_ws/install/calcul_position/bin'
+[10.156s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calcul_position)
+[10.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/calcul_position/share/calcul_position/package.ps1'
+[10.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/agilex/control_ws/install/calcul_position/share/calcul_position/package.dsv'
+[10.170s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/calcul_position/share/calcul_position/package.sh'
+[10.174s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/calcul_position/share/calcul_position/package.bash'
+[10.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/agilex/control_ws/install/calcul_position/share/calcul_position/package.zsh'
+[10.242s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/agilex/control_ws/install/calcul_position/share/colcon-core/packages/calcul_position)
+[10.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.247s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.247s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.277s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[10.410s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[10.412s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.ps1'
+[10.420s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/control_ws/install/_local_setup_util_ps1.py'
+[10.432s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.ps1'
+[10.448s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.sh'
+[10.452s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/agilex/control_ws/install/_local_setup_util_sh.py'
+[10.454s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.sh'
+[10.463s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.bash'
+[10.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.bash'
+[10.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/agilex/control_ws/install/local_setup.zsh'
+[10.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/agilex/control_ws/install/setup.zsh'

@@ -1,0 +1,7 @@
+[0.071s] Invoking command in '/home/agilex/control_ws/build/interfaces': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /home/agilex/.local/bin/cmake /home/agilex/control_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/agilex/control_ws/install/interfaces
+[1.555s] [31mCMake Error at CMakeLists.txt:19:
+[1.556s]   Parse error.  Expected a command name, got unquoted argument with text "$".
+[1.557s] 
+[1.557s] [0m
+[1.558s] -- Configuring incomplete, errors occurred!
+[1.584s] Invoked command in '/home/agilex/control_ws/build/interfaces' returned '1': CMAKE_PREFIX_PATH=/home/agilex/control_ws/install/sensors_nodes:/home/agilex/control_ws/install/controller:/opt/ros/eloquent:${CMAKE_PREFIX_PATH} /home/agilex/.local/bin/cmake /home/agilex/control_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/agilex/control_ws/install/interfaces
